@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+.container{
+    width: 1440px;
+}
+
+.startwindow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul{
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+li{
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+}
