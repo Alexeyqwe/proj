@@ -1,39 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: none;
     text-decoration: none;
 }
-
-
+body{
+    background-color
+}
 .header{
-    display: flex;
-    justify-content: center;
+    background-color: #0C0C0E;
+    background-size: 100%;
     height: 90px;
+    display :flex;
+    justify-content: center;
     align-items: center;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
 .container{
     width: 1440px;
 }
-
-.startwindow{
-    display: flex;
-    align-items: center;
+.StartWindow{
+    display :flex;
+    align-items: center; 
     justify-content: space-between;
-    
 }
-
-ul{
-
-}
-
-h1{
+.h11{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Forum";
     font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
 }
+
+
 
 li{
-    float: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+    list-style-type: none;
     display: inline-block;
     list-style-type: none;
     margin: 0 12px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.welcome{
+    display: flex;
+    height: 600px;
+    background: url(images/pupa2.jpg) 50%;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.WelcomeText{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: white;
+    width: 520px;
+    height: 150px;
+    text-transform: uppercase;
+}
+
+.WelcomeBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 11, 11);
+    width: 520px;
+    height: 150px;
+    padding: 35px 40px;
+    margin-bottom: 100px;
+}
+
+.welcomeGradient img{
+    height: 220px;
+    width: 1520px;
+    
 }
