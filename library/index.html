@@ -14,11 +14,11 @@
           <nav>
             <div class="navigation">
               <ul>
-                <li><a style="color: white;" href="about"> About</a></li>
-                <li><a style="color: white;" href="Favorites"> Favorites</a></li>
-                <li><a style="color: white;" href="Coffee shop"> Coffee shop</a></li>
-                <li><a style="color: white;" href="Contacts"> Contacts</a></li>
-                <li><a style="color: white;" href="Library"> Library</a></li>
+                <li><a style="color: white;" href="#About"> About</a></li>
+                <li><a style="color: white;" href="#Favorites"> Favorites</a></li>
+                <li><a style="color: white;" href="#Coffee shop"> Coffee shop</a></li>
+                <li><a style="color: white;" href="#Contacts"> Contacts</a></li>
+                <li><a style="color: white;" href="#Library"> Library</a></li>
               </ul>
               <img
                 src="images/Subtract.png"
@@ -32,12 +32,109 @@
     </header>
     <main class="main">
             <section class="welcome">
-                <div class="welcomeGradient">
-                    <img src="images/overlay.png" alt="">
                     <div class="WelcomeBlock">
                         <p class="WelcomeText">Welcome <br> to the Brooklyn <br> Library</p>
                     </div>
+        </section>
+        <section class="About" id="About">
+          <div class="conainer">
+            <div class="containerAbout">
+              <div class="aboutText">
+                <h2 class="h2">About</h2>
+                <hr class="hr">
+              <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+              </div>
+              <div class="carusel">
+                <div class="slide-1" href="#1">
+                  <img src="images/image 1.png" alt="">
+                  <img src="images/image 2 (1).png" alt="">
+                  <img src="images/image 3.png" alt="">
                 </div>
+                <div class="caruselPaginations">
+                  <button class="button1" href="#1"></button>
+                  <button class="button2" href="#2"></button>
+                  <button class="button3" href="#3"></button>
+                </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="Favorites" id="Favorites">
+          <div class="container">
+            <div class="containerFavorites">
+              <div class="favoritesText">
+                <h2>Favorites</h2>
+                <hr>
+              </div>
+              <div class="radio">
+                <p>Pick favorites of season</p>
+                <div class="radioChoice">
+                  <label>
+                    <input type="radio" id="choice1" name="choice" checked value="winter" />
+                    Winter
+                  </label>
+                  <label>
+                    <input type="radio" id="choice2" name="choice" value="Spring" />
+                    Spring
+                  </label>
+                  <label>
+                    <input type="radio" id="choice3" name="choice" value="Summer" />
+                    Summer
+                  </label>
+                  <label>
+                    <input type="radio" id="choice4" name="choice" value="Autumn" />
+                    Autumn
+                  </label>
+                </div>
+              </div>
+              <div class="cards">
+
+                <div class="card1">
+                  <h3>Staff Picks</h3>
+                  <hr>
+                  <p class="one">The Book Eaters <br> <em>By Sunyi Dean</em></p>
+                  <p class="two">An unusual sci-fi story about a book <br> Eater woman who tries desperately to <br> Save her dangerous mind-eater son <br> From tradition and certain death. <br> Complete with dysfunctional family <br> values, light Sapphic romance, and a <br> Strong, complex protagonist. Not for <br> The faint of heart.</p>
+                  <button>
+                    <input type="button">Buy
+                  </button>
+                  <img src="images/book.png" alt="">
+                </div>
+                <div class="card2">
+                  <h3>Staff Picks</h3>
+                  <hr>
+                  <p class="one">The Book Eaters <br> <em>By Sunyi Dean</em></p>
+                  <p class="two">Are your Halloween movies of choice <br> The Witches of Eastwick and Practical <br> Magic? Look no further than here - <br> where a woman recovering from a <br> breakup moves to a quaint town in <br> upstate New York and befriends a <br> beautiful witch.</p>
+                  <button>
+                    <input type="button">Buy
+                  </button>
+                  <img src="images/book (1).png" alt="">
+                </div>
+              </div>
+              <div class="cards">
+
+                <div class="card3">
+                  <h3>Staff Picks</h3>
+                  <hr>
+                  <p class="one">Dante: Poet of the Secular World <br> <em>By Erich Auerbach</em></em></p>
+                  <p class="two">Auerbach's engaging book places the <br> 'Comedy' within the tradition of epic, <br> tragedy, and philosophy in general, <br> arguing for Dante's uniqueness as one <br> who raised the individual and his <br> drama of soul into something of <br> divine significance—an inspired <br> introduction to Dante's main themes.</p>
+                  <button>
+                    <input type="button">Buy
+                  </button>
+                  <img src="images/book (2).png" alt="">
+                </div>
+                <div class="card4">
+                  <h3>Staff Picks</h3>
+                  <hr>
+                  <p class="one">The Last Queen <br> <em>By Clive Irving</em></p>
+                  <p class="two">A timely and revelatory new <br> biography of Queen Elizabeth (and her <br> family) exploring how the Windsors <br> have evolved and thrived as the <br> modern world has changed around <br> them.</p>
+                  <button>
+                    <input type="button">own
+                  </button>
+                  <img src="images/book (4).png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
     </main>
   </body>
