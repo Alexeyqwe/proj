@@ -567,3 +567,95 @@ text-transform: capitalize;
     flex-direction: column;
     
 }
+
+.contact h2{
+color: #0C0C0E;
+text-align: center;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.tiree{
+background: black;
+margin-top: 20px;
+width: 50px;
+height: 1px;
+}
+
+.contactstart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pp{
+margin-top: 40px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin-left: 25px;
+}
+
+.ppp{
+padding-top: 25px;
+margin-left: 25px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.contact{
+    height: 515px;
+}
+
+.contactflex{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactmap{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.p{
+padding-top: 5px;
+margin-left: 25px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.pppp{
+margin-top: 40px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin-left: 25px;
+}
