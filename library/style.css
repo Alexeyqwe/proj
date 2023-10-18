@@ -5,7 +5,6 @@
     text-decoration: none;
 }
 body{
-    background-color
 }
 .header{
     background-color: #0C0C0E;
@@ -569,8 +568,8 @@ text-transform: capitalize;
 }
 
 .contact h2{
+    margin-left: 60px;
 color: #0C0C0E;
-text-align: center;
 font-family: Forum;
 font-size: 40px;
 font-style: normal;
@@ -581,6 +580,7 @@ text-transform: capitalize;
 }
 
 .tiree{
+    margin-left: 75px;
 background: black;
 margin-top: 20px;
 width: 50px;
@@ -658,4 +658,264 @@ line-height: 40px; /* 200% */
 letter-spacing: 2px;
 text-transform: capitalize;
 margin-left: 25px;
+}
+
+.librarytext{
+margin-top: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.librarytext h2{
+padding-left: 100px;
+color: #0C0C0E;
+text-align: center;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.tire{
+margin-left: 90px;
+width: 50px;
+height: 1px;
+flex-shrink: 0;
+background-color: black;
+}
+
+.library{
+    height: 515px;
+}
+
+.pf{
+padding-top: 40px;
+padding-right: 48px;
+margin-left: 158px;
+padding-bottom: 30px;
+color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.form{
+margin-left: 25px;
+width: 600px;
+height: 386px;
+border: 3px solid #BB945F;
+background: #FFF;
+}
+
+form{
+
+display: flex;
+flex-direction: column;
+width: 560px;
+height: 260px;
+background: #BB945F;
+margin: 20px;
+}
+
+.form label{
+padding: 20px;
+color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+}
+
+.form input{
+margin-left: 20px;
+margin-bottom: 25px;
+border-radius: 10px;
+width: 500px;
+height: 66px;
+}
+
+.lib{
+    padding-left: 20px;
+color: #8E8E8E;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+}
+
+.form button{
+margin-left: 179px;
+margin-top: 5px;
+height: 44px;
+width: 242px;
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+}
+
+.reader{
+    text-align: right;
+    height: 235px;
+}
+
+.readera{
+    text-align: right;
+margin-top: 40px;
+margin-left: 730px;
+color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.readerb{
+padding-bottom: 35px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 0.4px;
+}
+
+.buttons button{
+height: 30px;
+width: 75px;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+width: 75px;
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+        
+}
+
+.buttons{
+    gap: 20px;
+    justify-content: right;
+    display: flex;
+}
+
+.formflex{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.librarytext{
+    display: flex;
+    
+}
+
+.readtwo{
+    width: 1440px;
+    display: flex;
+}
+
+.textaa{
+margin-left: 42px;
+padding-top: 20px;
+width: 229px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+footer{
+    margin-top: 80px;
+    background: black;
+    height: 250px;
+}
+
+.textb{
+    margin-left: 42px;
+    margin-top: 18px;
+    row-gap: 15px;
+}
+
+.foottire{
+margin-top: 38px;
+margin-left: 35px;
+background-color: white;
+width: 1440px;
+height: 1px;
+}
+
+.footerflex{
+display: flex;
+justify-content: space-between;
+}
+
+.foootertwo{
+color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+smargin-top: 20px;
+margin-right: 60px;
+}
+
+.fone{
+    padding-bottom: 5px;
+    text-align: right;
+    width: 149px;
+}
+
+.ftwo{
+    padding-top: 5px;
+    text-align: right;
+    width: 149px;
+}
+
+.rsc p{
+padding-left: 42px;
+padding-right: 60px;
+color: white;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+letter-spacing: 2px;
+}
+
+.rsc{
+    padding: 44px 0;
+    display: flex;
+    justify-content: space-between;
 }
